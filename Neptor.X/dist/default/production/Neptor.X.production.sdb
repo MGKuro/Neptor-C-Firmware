@@ -1,0 +1,465 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F628A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"6 C:\Users\mauro\Desktop\Proyectos\Neptor.X\Control.c
+[v _MoveForward MoveForward `(v  1 e 1 0 ]
+[v i1_MoveForward MoveForward `(v  1 e 1 0 ]
+"13
+[v _MoveBackward MoveBackward `(v  1 e 1 0 ]
+[v i1_MoveBackward MoveBackward `(v  1 e 1 0 ]
+"20
+[v _MoveLeft MoveLeft `(v  1 e 1 0 ]
+[v i1_MoveLeft MoveLeft `(v  1 e 1 0 ]
+"28
+[v _MoveRight MoveRight `(v  1 e 1 0 ]
+[v i1_MoveRight MoveRight `(v  1 e 1 0 ]
+"35
+[v _Stop Stop `(v  1 e 1 0 ]
+[v i1_Stop Stop `(v  1 e 1 0 ]
+"42
+[v _RobotControl RobotControl `(v  1 e 1 0 ]
+[v i1_RobotControl RobotControl `(v  1 e 1 0 ]
+"62 C:\Users\mauro\Desktop\Proyectos\Neptor.X\DBot_Main.c
+[v _main main `(v  1 e 1 0 ]
+"77
+[v _GeneralConfig GeneralConfig `(v  1 e 1 0 ]
+"126
+[v _GeneralInterrupt GeneralInterrupt `II(v  1 e 1 0 ]
+"4 C:\Users\mauro\Desktop\Proyectos\Neptor.X\MyDelays.c
+[v _Delay_HalfSeg Delay_HalfSeg `(v  1 e 1 0 ]
+"17
+[v _Delay_Seg Delay_Seg `(v  1 e 1 0 ]
+[v i1_Delay_Seg Delay_Seg `(v  1 e 1 0 ]
+"4 C:\Users\mauro\Desktop\Proyectos\Neptor.X\PWM.c
+[v _M1Left M1Left `(v  1 e 1 0 ]
+[v i1_M1Left M1Left `(v  1 e 1 0 ]
+"27
+[v _M1Right M1Right `(v  1 e 1 0 ]
+[v i1_M1Right M1Right `(v  1 e 1 0 ]
+"50
+[v _M2Left M2Left `(v  1 e 1 0 ]
+[v i1_M2Left M2Left `(v  1 e 1 0 ]
+"73
+[v _M2Right M2Right `(v  1 e 1 0 ]
+[v i1_M2Right M2Right `(v  1 e 1 0 ]
+"8 C:\Users\mauro\Desktop\Proyectos\Neptor.X\USART.c
+[v _USARTConfig USARTConfig `(v  1 e 1 0 ]
+"18
+[v _USARTWrite USARTWrite `(v  1 e 1 0 ]
+"30
+[v _USARTRead USARTRead `(i  1 e 2 0 ]
+"52
+[v _HC06Config HC06Config `(v  1 e 1 0 ]
+"68
+[v _DataCompare DataCompare `(i  1 e 2 0 ]
+"96
+[v _ReceiveControl ReceiveControl `(v  1 e 1 0 ]
+"86 C:\Users\mauro\Desktop\Proyectos\Neptor.X/DBot.h
+[v _ManualMode ManualMode `i  1 e 2 0 ]
+"87
+[v _Pressed Pressed `i  1 e 2 0 ]
+"94
+[v _M1Step M1Step `i  1 e 2 0 ]
+"95
+[v _M2Step M2Step `i  1 e 2 0 ]
+"97
+[v _MotorPWM MotorPWM `i  1 e 2 0 ]
+"98
+[v _PWM_Limit PWM_Limit `i  1 e 2 0 ]
+[s S42 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"184 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f628a.h
+[u S51 . 1 `S42 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES51  1 e 1 @5 ]
+[s S63 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"246
+[u S72 . 1 `S63 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES72  1 e 1 @6 ]
+[s S232 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"334
+[s S241 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S246 . 1 `S232 1 . 1 0 `S241 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES246  1 e 1 @11 ]
+[s S290 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 CMIF 1 0 :1:6 
+`uc 1 EEIF 1 0 :1:7 
+]
+"406
+[u S299 . 1 `S290 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES299  1 e 1 @12 ]
+"446
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"467
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+"683
+[v _RCSTA RCSTA `VEuc  1 e 1 @24 ]
+[s S463 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"704
+[s S472 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADDEN 1 0 :1:3 
+]
+[u S475 . 1 `S463 1 . 1 0 `S472 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES475  1 e 1 @24 ]
+"754
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"761
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"768
+[v _CMCON CMCON `VEuc  1 e 1 @31 ]
+[s S264 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"858
+[s S271 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S275 . 1 `S264 1 . 1 0 `S271 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES275  1 e 1 @129 ]
+[s S130 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"925
+[u S139 . 1 `S130 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES139  1 e 1 @133 ]
+[s S151 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"987
+[u S160 . 1 `S151 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES160  1 e 1 @134 ]
+[s S209 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 CMIE 1 0 :1:6 
+`uc 1 EEIE 1 0 :1:7 
+]
+"1049
+[u S218 . 1 `S209 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES218  1 e 1 @140 ]
+"1145
+[v _TXSTA TXSTA `VEuc  1 e 1 @152 ]
+[s S441 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"1162
+[u S450 . 1 `S441 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES450  1 e 1 @152 ]
+"1202
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"1436
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"1445
+[v _OSCF OSCF `VEb  1 e 0 @1139 ]
+"4 C:\Users\mauro\Desktop\Proyectos\Neptor.X\Control.c
+[v _i i `i  1 e 2 0 ]
+"53 C:\Users\mauro\Desktop\Proyectos\Neptor.X\DBot_Main.c
+[v _HC06_Data HC06_Data `[3]uc  1 e 3 0 ]
+"54
+[v _Data_Length Data_Length `i  1 e 2 0 ]
+"62
+[v _main main `(v  1 e 1 0 ]
+{
+"69
+} 0
+"42 C:\Users\mauro\Desktop\Proyectos\Neptor.X\Control.c
+[v _RobotControl RobotControl `(v  1 e 1 0 ]
+{
+"110
+} 0
+"35
+[v _Stop Stop `(v  1 e 1 0 ]
+{
+"40
+} 0
+"28
+[v _MoveRight MoveRight `(v  1 e 1 0 ]
+{
+"33
+} 0
+"20
+[v _MoveLeft MoveLeft `(v  1 e 1 0 ]
+{
+"26
+} 0
+"6
+[v _MoveForward MoveForward `(v  1 e 1 0 ]
+{
+"11
+} 0
+"13
+[v _MoveBackward MoveBackward `(v  1 e 1 0 ]
+{
+"18
+} 0
+"73 C:\Users\mauro\Desktop\Proyectos\Neptor.X\PWM.c
+[v _M2Right M2Right `(v  1 e 1 0 ]
+{
+[v M2Right@PWM PWM `i  1 p 2 4 ]
+"94
+} 0
+"50
+[v _M2Left M2Left `(v  1 e 1 0 ]
+{
+[v M2Left@PWM PWM `i  1 p 2 4 ]
+"71
+} 0
+"27
+[v _M1Right M1Right `(v  1 e 1 0 ]
+{
+[v M1Right@PWM PWM `i  1 p 2 4 ]
+"48
+} 0
+"4
+[v _M1Left M1Left `(v  1 e 1 0 ]
+{
+[v M1Left@PWM PWM `i  1 p 2 4 ]
+"25
+} 0
+"17 C:\Users\mauro\Desktop\Proyectos\Neptor.X\MyDelays.c
+[v _Delay_Seg Delay_Seg `(v  1 e 1 0 ]
+{
+"19
+[v Delay_Seg@i i `i  1 a 2 14 ]
+"17
+[v Delay_Seg@j j `ui  1 p 2 10 ]
+"28
+} 0
+"77 C:\Users\mauro\Desktop\Proyectos\Neptor.X\DBot_Main.c
+[v _GeneralConfig GeneralConfig `(v  1 e 1 0 ]
+{
+"122
+} 0
+"8 C:\Users\mauro\Desktop\Proyectos\Neptor.X\USART.c
+[v _USARTConfig USARTConfig `(v  1 e 1 0 ]
+{
+"16
+} 0
+"52
+[v _HC06Config HC06Config `(v  1 e 1 0 ]
+{
+"66
+} 0
+"18
+[v _USARTWrite USARTWrite `(v  1 e 1 0 ]
+{
+[v USARTWrite@text text `*.24uc  1 a 1 wreg ]
+"20
+[v USARTWrite@i i `i  1 a 2 7 ]
+"18
+[v USARTWrite@text text `*.24uc  1 a 1 wreg ]
+[v USARTWrite@length length `i  1 p 2 4 ]
+"20
+[v USARTWrite@text text `*.24uc  1 a 1 9 ]
+"28
+} 0
+"4 C:\Users\mauro\Desktop\Proyectos\Neptor.X\MyDelays.c
+[v _Delay_HalfSeg Delay_HalfSeg `(v  1 e 1 0 ]
+{
+"6
+[v Delay_HalfSeg@i i `i  1 a 2 14 ]
+"4
+[v Delay_HalfSeg@j j `ui  1 p 2 10 ]
+"15
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 8 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 4 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 6 ]
+"53
+} 0
+"126 C:\Users\mauro\Desktop\Proyectos\Neptor.X\DBot_Main.c
+[v _GeneralInterrupt GeneralInterrupt `II(v  1 e 1 0 ]
+{
+"148
+} 0
+"42 C:\Users\mauro\Desktop\Proyectos\Neptor.X\Control.c
+[v i1_RobotControl RobotControl `(v  1 e 1 0 ]
+{
+"110
+} 0
+"28
+[v i1_MoveRight MoveRight `(v  1 e 1 0 ]
+{
+"33
+} 0
+"20
+[v i1_MoveLeft MoveLeft `(v  1 e 1 0 ]
+{
+"26
+} 0
+"6
+[v i1_MoveForward MoveForward `(v  1 e 1 0 ]
+{
+"11
+} 0
+"13
+[v i1_MoveBackward MoveBackward `(v  1 e 1 0 ]
+{
+"18
+} 0
+"17 C:\Users\mauro\Desktop\Proyectos\Neptor.X\MyDelays.c
+[v i1_Delay_Seg Delay_Seg `(v  1 e 1 0 ]
+{
+"19
+[v i1Delay_Seg@i i `i  1 a 2 10 ]
+"17
+[v i1Delay_Seg@j j `ui  1 p 2 6 ]
+"28
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul16.c
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v i1___wmul@product product `ui  1 a 2 4 ]
+"15
+[v i1___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v i1___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"30 C:\Users\mauro\Desktop\Proyectos\Neptor.X\USART.c
+[v _USARTRead USARTRead `(i  1 e 2 0 ]
+{
+[v USARTRead@Rxdata Rxdata `*.4uc  1 a 1 wreg ]
+"32
+[v USARTRead@j j `i  1 a 2 4 ]
+"30
+[v USARTRead@Rxdata Rxdata `*.4uc  1 a 1 wreg ]
+"32
+[v USARTRead@Rxdata Rxdata `*.4uc  1 a 1 3 ]
+"50
+} 0
+"96
+[v _ReceiveControl ReceiveControl `(v  1 e 1 0 ]
+{
+[v ReceiveControl@Rxdata Rxdata `*.4uc  1 a 1 wreg ]
+[v ReceiveControl@Rxdata Rxdata `*.4uc  1 a 1 wreg ]
+"98
+[v ReceiveControl@Rxdata Rxdata `*.4uc  1 a 1 8 ]
+"113
+} 0
+"35 C:\Users\mauro\Desktop\Proyectos\Neptor.X\Control.c
+[v i1_Stop Stop `(v  1 e 1 0 ]
+{
+"40
+} 0
+"73 C:\Users\mauro\Desktop\Proyectos\Neptor.X\PWM.c
+[v i1_M2Right M2Right `(v  1 e 1 0 ]
+{
+[v i1M2Right@PWM PWM `i  1 p 2 0 ]
+"94
+} 0
+"50
+[v i1_M2Left M2Left `(v  1 e 1 0 ]
+{
+[v i1M2Left@PWM PWM `i  1 p 2 0 ]
+"71
+} 0
+"27
+[v i1_M1Right M1Right `(v  1 e 1 0 ]
+{
+[v i1M1Right@PWM PWM `i  1 p 2 0 ]
+"48
+} 0
+"4
+[v i1_M1Left M1Left `(v  1 e 1 0 ]
+{
+[v i1M1Left@PWM PWM `i  1 p 2 0 ]
+"25
+} 0
+"68 C:\Users\mauro\Desktop\Proyectos\Neptor.X\USART.c
+[v _DataCompare DataCompare `(i  1 e 2 0 ]
+{
+[v DataCompare@Buffer Buffer `*.4uc  1 a 1 wreg ]
+"70
+[v DataCompare@i i `i  1 a 2 6 ]
+"68
+[v DataCompare@Buffer Buffer `*.4uc  1 a 1 wreg ]
+[v DataCompare@Data Data `*.24uc  1 p 1 0 ]
+[v DataCompare@length length `ui  1 p 2 1 ]
+"70
+[v DataCompare@Buffer Buffer `*.4uc  1 a 1 5 ]
+"94
+} 0
